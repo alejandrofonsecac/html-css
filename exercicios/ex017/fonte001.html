@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        
+        
+        
+        body{
+            /*font-family: Arial;  Assim você da a opção somente do Arial para o navegador do cliente*/
+            
+            font-family: Arial, Helvetica, sans-serif;/*Já assim você da 3 opções de fontes para o navegador*/
+
+            font-size: 16 px;
+            /*
+            Medidas Absolutas
+            cm (centimetro), mm (milimetro), in (polegada), px (pixel), pt (ponto), pc (paica).
+            
+            Medidas Relativas
+            em (altura m), ex (altura x), rem , vw (largura da tela {viewport}), vh (altura da tela{viewport}), %.
+            
+            16px = 1em
+            */
+
+            
+            font-weight: normal; 
+            
+            /*
+            Peso por nome
+            lighter (leve), normal, bold, bolder
+            
+            Peso por numero
+            100-900 (nem todas as fontes)
+            */
+
+            
+            /*weight ((peso)), width 
+            ((largura)), height ((altura))*/
+
+            font-style: italic;
+            /*Podemos fazer uma combinação de estilo da letra e o negrito (font-weight)*/
+
+            text-decoration: underline;
+            /*Coloca um subinhado no texto neste caso {body}*/
+
+            
+            
+            
+            
+            
+            
+            /*shorthand font
+            /*Se você quiser condensar todos esses codigos em uma linha só podemos fazer isso usando a seguinte ordem:
+            font-style -> font-weight -> font-size -> font-family
+            
+            EX:
+            */
+        } 
+            h1{ 
+        font: italic bolder 3em 'Work Sans', sans-serif;
+            }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat totam facilis, debitis illum voluptatem distinctio delectus voluptates aliquam sit possimus earum tempora officia provident animi similique, fuga aperiam quia? Ipsa.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias ex, totam minus, quae quis nam sit veniam vitae laborum delectus laudantium. Ipsam et non quam sed. Temporibus corporis eligendi dolores!</p>
+        <h2>Subtítulo do exercício</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tempore dolores asperiores? Veritatis itaque facere perferendis labore recusandae quisquam, saepe, debitis ad hic eaque fugiat amet mollitia libero accusantium. Eligendi.</p>
+
+</body>
+</html>

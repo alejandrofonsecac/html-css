@@ -1,0 +1,168 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf);
+}
+
+body{
+
+    background-color: #5c8f71;
+}
+
+
+header{
+    height: 200px;
+    width: auto;
+    background-image: linear-gradient(to bottom, #2ED66A, #31DB67, #388F4F, #487451, #444F45);
+    font-weight: bolder;
+    padding: 10px;
+    margin: -1%;
+    
+}
+
+main{
+background-color: white;
+width: 800px;
+margin: 19px auto 19px auto;
+padding: 15px;
+
+
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Android', Times, serif;
+    color: #1b5e32;
+    font-size: 2em;
+}
+
+h3{
+    font-family: 'Android', Times, serif;
+    color: #1b5e32;
+    font-size: 2em;
+}
+
+h4{
+    font-family: 'Android', Times, serif;
+    color: #1b5e32;
+    font-size: 2em;
+}
+
+h5{
+    background-color: rgb(18, 177, 103);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.2em;
+    border: 2px solid rgba(0, 0, 0, 0);
+    margin-top: 39px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img{
+    margin: 20px auto 20px auto;
+}
+
+iframe{
+    height: 385px;
+    width: 735px;
+    background-color: #1b5e32;
+    padding: 6%;
+    margin: -2%;
+}
+
+footer{
+    background-color: rgb(26, 88, 26);
+    height: 27px;
+    width: 102%;
+    margin: -8px;
+    bottom: 0;
+    background-size: cover;
+    text-align: center;
+    color: #92daaa;
+}
+
+
+#basico{
+    font-weight: bold;
+    color: rgb(77, 72, 72);
+    text-align: center;
+    
+}
+
+#bugdroid{
+    display: flex;
+    justify-content: center;
+}
+
+#indicacoes{
+    background-color: #6ea184a9;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#listaesq{
+text-align: left;
+}
+
+#listadir{
+text-align: right;
+}
+
+.menu{
+    font-weight: bolder;
+    color: white;
+    height: 5px;
+    width: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.corBranca{
+    color: white;
+}
+
+.dentrolist{
+    padding: 8px;
+}
+
+.Android{
+    color: #1b6e21;
+}
+
+.fundotitle{
+    background-image: linear-gradient(to right, #73ca7975, #49bf513f, #58ea622a, #3c9e4300);
+}
+
+.semlink{
+    text-decoration: none;
+    color: black;
+}
+
+.semlinka{
+    text-decoration: none;
+    color: #1b6e21;
+}

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*
+Em HTMl e id     =  CSS e #
+Em HTML e class  =  em CSS e .
+*/
+
+
+body{
+    background-color: rgb(198, 245, 198);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(4, 109, 0);
+}
+
+h1#principal{
+text-align: center;
+
+color: white;
+}
+/*Nos só podemos usar o #principal (id) apenas em um codigo lá no HTML, ele irá funcionar mas está errado, SEGUNDO O GUANABARA */
+/*O id ele é único, você usa ele apenas quando vai usar para um unico codigo, ja o CLASS é para vários*/
+
+h2{
+    color: rgb(73, 109, 71);
+}
+
+.basico{
+color: rgb(98, 230, 81);
+}
+
+.intermediario{
+color: rgb(174, 187, 101);
+}
+
+.avancado{
+color: rgb(99, 31, 31);
+}
+
+.destaque{
+    background-color: rgba(177, 174, 0, 0.219);
+}

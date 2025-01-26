@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+body{
+background-image: linear-gradient(to right, #36BFB1, #02735E,#01403499, #0D0D0D);
+}
+
+main{
+    background-color: white; 
+    /*Define para o fundo do texto tiver em branco*/
+    
+    border-radius: 20px; 
+    /*Faz com que o bagulho branco não ficar com a ponta reta, com essa tag ela fica arredondad*/
+    
+    box-shadow: 5px/*Sobra para o lado*/, 5px /*Sombra para baixo*/, 15px/*Espalhamento da sombra*/, black/*Cor da sombra*/;
+    
+    width: 600px;
+    /*Define a largura do bagulho em branco*/
+    
+    padding: 10px;
+    /*Faz meio que uma pequena margem das letras ate o o final do bagulho branco*/
+    
+    margin: auto;
+    /*Faz com que o bagulho branco fique no meio, independente do tamanho da janela doo site*/
+
+}
+
+h1{
+color: #038C73;
+
+text-align: center;
+/*Alinha o texto para o meio*/
+text-shadow: 1px, 1px, 0px, black;
+/*Mesma coisa que o box-shadow (lá em cima)*/
+}
+
+h2{
+color: #36BFB1;
+}
+
+p{
+    text-align: justify;
+}

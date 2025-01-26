@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{
+            background-color: lightgray ;
+            height: 300px;
+            width: 300px;
+            
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+
+            /*   Temos como simplificar o border usando um shorthand:*/
+
+            /*  border: 10px solid darkslategray;*/
+            /*  Informamos na seguinte order: espessura, estilo, cor.*/
+            
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            padding: 10px;
+
+            /*Temos também como usar um shorthand no padding:*/
+            /*Neste caso como os 4 valores dos 4 lados são iguais apenas use a tag !!!padding: 10px;!!!*/
+
+            /*Mas também podemos fazer o uso de lados separado, naquela ordem... Topo, direita, embaixo, e esquerda (relogio)
+            
+            Ex:  padding: 15px(topo) 10px(direita) 20px(embaixo) 5px(esquerda);*/
+
+            
+            
+           
+            
+            
+            
+            /*    margin: auto;      Usamos para op site centrializar o box automaticamente de acordo com o tamanho da janela*/
+
+             /*
+             margin-top: 20px;
+             margin-right: 20px;
+             margin-bottom: 40px;
+             margin-left: 20px;
+             /*
+
+             
+            /*no margin e a mesma coisa que o padding*/
+            margin: 20px auto 40px auto;
+            /*Assim podemos centralizar somente o margin dos lados*/
+            
+
+             outline-width: 5px;
+             outline-style: dashed;
+             outline-color: salmon;
+
+             outline: 5px dashed salmon;
+        }
+        a{
+            border-width: 10px;
+            
+            border-style: solid; 
+            /*Anguns border styes que você pode usar é: dasehd (pontilhado com linha), dotted (pontikhado com bolinhas), double (linha dupla),groove (meio que um 3D)*/
+            
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

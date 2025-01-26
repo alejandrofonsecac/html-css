@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTFc8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+
+
+div{ /*A dif é basicamente um espaço que ele vai até o fianl da linha, que ele vai o cupar toda aquela àrea*/
+    
+    display: inline-block;
+
+    background-color: lightgray; /*Define a cor do fundo da div*/
+
+    border: 1px solid black;/*Essa tag, neste caso especifico, ele cria uma borda sobre a dig*/
+
+    text-align: center; /*Coloca a div no meio*/
+
+    height: 200px; /*Define a altura da div*/
+
+    width: 200px; /*Define  largura da div*/
+
+}
+
+div:hover{
+    /*O : (dois pontos) significa uma pseudo classe, no casou está chamando o houver*/
+    
+    /*Hover é uma tag que faz com que quando o usuario passar o mouse em cima da div ela ira ficar com  ofundo amarelo como está definido aqui em baixo:*/
+    background-color: yellow;
+}
+    </style>
+</head>
+<body>
+     <div id="d1">01</div>
+     <div id="d2">02</div>
+     <div id="d3">03</div>
+</body>
+</html>
