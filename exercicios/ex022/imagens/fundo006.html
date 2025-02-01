@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
 
         body{
@@ -12,12 +12,26 @@
             background-image: url(wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
+            background-size: contain;
+            background-attachment: fixed;
+
+            /*
+            Shorthand - background
+
+            color > image > position > reeat > [size]>
+            attachment
+            */
+
+            /*O size não funciona na shorthand, então você te que fazer ele aparte da shorthand*/
+
+            background: black url(wallpaper002.jpg)
+            center center no-repeat fixed;
             background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
