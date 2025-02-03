@@ -1,2 +1,47 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Passion';
+    src: url(fonts/Passion_One/PassionOne-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url(fonts/Sriracha/Sriracha-Regular.ttf);
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: white;
+    color: black;
+}
+
+header{
+    height: 185px;
+    width: auto;
+    padding-top: 64px;
+    background-color: black;
+    color: white;
+    font-family: 'Passion';
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+p{
+    font-family: 'Sriracha';
+    font-weight: normal;
+    font-size: 1em;
+    margin: 10px;
+}
