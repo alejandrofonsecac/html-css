@@ -33,6 +33,14 @@ header{
     text-align: center;
 }
 
+article{
+    height: 500px;
+    background-image: url(imagens/background001.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    background-attachment: fixed;
+}
+
 header > p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -42,6 +50,20 @@ header > p{
 p{
     font-family: 'Sriracha';
     font-weight: normal;
-    font-size: 1em;
-    margin: 10px;
+    font-size: 1.5em;
+}
+
+.paragrafo{
+
+    margin: 60px;
+    margin-bottom: 218px;
+    padding-top: 95px;
+}
+
+#girassol{
+    height: 314px;
+    width: 318px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-top: 50px;
 }
