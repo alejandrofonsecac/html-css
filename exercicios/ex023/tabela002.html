@@ -32,6 +32,24 @@
             color: white;
         }
 
+        
+        /*
+        Odd   = Par
+        Eveen = Impar
+        */
+        
+        
+        tbody > tr:nth-child(odd){ 
+            /*Caso esteja trabalhnado com imagens no fundo do site ou o background não for branco*/
+            
+            background-color: white;
+        }
+
+        
+        tbody > tr:nth-child(eveen){
+            background-color: lightgray;
+        }
+
         td.num{
             text-align: right;
         }
