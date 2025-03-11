@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /*Configurações em tela de retrato, em pé (landscape)*/
+
+body{
+    background: url(../imagens/cev-portrait.jpg) no-repeat;
+    background-size: contain;
+    background-position: bottom center;
+}

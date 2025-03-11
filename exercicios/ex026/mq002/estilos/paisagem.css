@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /*Configurações em tela de paisagem deitado (portrait)*/
+
+body{
+    background: url(../imagens/cev-portrait.jpg);
+    background-size: contain;
+    background-position: left bottom;
+}
