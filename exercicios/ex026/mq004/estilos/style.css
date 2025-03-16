@@ -16,7 +16,7 @@ html{
 }
 
 body{
-    background: black url(../imagens/back-phone.jpg) no-repeat;
+    background: black url(../imagens/back-phone.jpg) no-repeat center center;
     background-size: cover;
     background-position: center center;
 }
@@ -46,3 +46,4 @@ img#Celular{ display: block; }
 img#PC{ display: none; }
 img#Tablet{ display: none; }
 img#Impressora{ display: none; }
+img#TV{ display: none;}

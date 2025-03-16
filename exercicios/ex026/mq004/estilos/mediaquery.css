@@ -1,1 +1,86 @@
 @charset "UTF-8";
+
+/* Todas as demais mideas */
+
+/* Typical Device Breakpoit 
+--------------------------
+Pequenas telas até: 600px
+Celular: da 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+
+
+@media print {
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background: url(../imagens/back-print.jpg); /* Desnecessario */
+}
+
+main{
+    border: 2px solid black;
+}
+
+main h1{
+    text-shadow: none;
+    color: black;
+}
+
+main::after{
+    content: 'Essa versão foi criada pro www.CursoemVideo.com';
+    text-decoration: underline;
+}
+
+img#Celular{ display: none; }
+img#PC{ display: none; }
+img#Tablet{ display: none; }
+img#Impressora{ display: block; }
+img#TV{ display: none; }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px)  {/* Tablet */
+    
+body{
+    background: url(../imagens/back-tablet.jpg) center center;
+}
+
+img#Celular{ display: none; }
+img#PC{ display: none; }
+img#Tablet{ display: block; }
+img#Impressora{ display: none; }
+img#TV{ display: none; }
+}
+
+@media screen and (min-width:992px) and (max-width: 1200px) {/* Desktop */
+    
+body{
+    background: url(../imagens/back-pc.jpg) center center;
+    background-size: cover;
+}
+
+img#Celular{ display: none; }
+img#PC{ display: block; }
+img#Tablet{ display: none; }
+img#Impressora{ display: none; }
+img#TV{ display: none; }
+}
+
+@media screen and (min-width: 1200px) {
+    
+body{
+    background: url(../imagens/back-tv.jpg)  center center;
+}
+
+img#Celular{ display: none; }
+img#PC{ display: none; }
+img#Tablet{ display: none; }
+img#Impressora{ display: none; }
+img#TV{ display: block; }
+}
