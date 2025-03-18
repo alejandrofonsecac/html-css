@@ -21,7 +21,7 @@ header{
 }
 
 menu{
-    display: block;
+    display: none;
     background-color: rgb(75, 74, 74);
 }
 
@@ -43,6 +43,19 @@ menu > ul > li > a{
 
 menu > ul > li > a:hover{
     background-color: rgb(192, 191, 191);
+}
+
+span.material-symbols-outlined{
+    text-align: center;
+    display: block;
+    background-color: rgb(48, 48, 48);
+    height: 30px;
+    padding: 6px;
+}
+
+span.material-symbols-outlined:hover{
+    background-color: white;
+    color: rgb(48, 48, 48);
 }
 
 main{
