@@ -1,1 +1,65 @@
 @charset "UTF-8";
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > h1{
+    text-align: center;
+    padding: 10px;
+}
+
+header{
+    background-color: gray;
+}
+
+menu{
+    display: block;
+    background-color: rgb(75, 74, 74);
+}
+
+menu > ul{
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+}
+
+menu > ul > li > a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid rgb(145, 144, 144);
+    color: white;
+}
+
+menu > ul > li > a:hover{
+    background-color: rgb(192, 191, 191);
+}
+
+main{
+    background-color: white;
+    width: 80vw;
+    margin: auto;
+    border-radius: 10px;
+}
+
+article > h2{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 15px 15px;
+}
+
+article > p{
+    text-align: justify;
+    text-indent: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
