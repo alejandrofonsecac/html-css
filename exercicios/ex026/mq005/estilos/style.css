@@ -4,6 +4,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 body, html{
@@ -14,6 +15,7 @@ body, html{
 header > h1{
     text-align: center;
     padding: 10px;
+    user-select: none;
 }
 
 header{
@@ -23,6 +25,7 @@ header{
 menu{
     display: none;
     background-color: rgb(75, 74, 74);
+    user-select: none;
 }
 
 menu > ul{
@@ -51,6 +54,7 @@ span.material-symbols-outlined{
     background-color: rgb(48, 48, 48);
     height: 30px;
     padding: 6px;
+    user-select: none;
 }
 
 span.material-symbols-outlined:hover{
