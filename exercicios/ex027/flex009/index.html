@@ -9,20 +9,17 @@
         div.conteiner{
             background-color: salmon;
 
+            flex-flow: row nowrap;
+            display: flex; 
 
-            display: flex; /*coloquei o conteiner flexiel*/
-            flex-direction: column;
-            justify-content: ;
         }
 
         div.item{
             background-color: lightskyblue;
             border: 1px solid black;
             text-align: center;
-            width: 50px;
 
-            /* flex: auto;     Coloquei os itens flexievis para serem auto ocuparem o volume que quiserem (igual água)*/
-
+            flex-basis: auto;
 
         }
 
@@ -31,10 +28,10 @@
 <body>
     <div class="conteiner">
         <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
+        <div class="item">Outro conteudo</div>
+        <div class="item">Conteudo maior</div>
         <div class="item">D</div>
-        <div class="item">E</div>
+        <div class="item">Conteudo maior ainda que vai ocupar um espaço maior ainda</div>
         <div class="item">F</div>
         <div class="item">G</div>
     </div>
