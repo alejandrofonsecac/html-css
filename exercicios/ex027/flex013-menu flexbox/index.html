@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Menu com FlexBox</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
+<body >
     
+    <header>
+        <h1>Meu site</h1>   
+            
+                <nav>
+                    <ul>
+                        <li><a href="#">Opção 1</a></li>
+                        <li><a href="#">Opção 2</a></li>
+                        <li><a href="#">Opção 3</a></li>
+                        <li><a href="#">Opção 4</a></li>
+                        <li><a href="#">Opção 5</a></li>
+                    </ul>
+                </nav>
+            
+    </header>
+    
+    <main>
+        <h2>Teste site</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, aliquam repellat. Sed sint corrupti fugit! Possimus maiores nulla officiis? Architecto explicabo repellendus tenetur ad odio iure, commodi perferendis nemo placeat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores ipsum molestiae quas neque quae, aut provident nostrum cumque? Repudiandae, consectetur. Suscipit reiciendis quae vitae architecto dolor vel odit dolorum debitis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cumque non illum, natus ut adipisci consectetur doloremque earum ad dolorem laborum magnam perspiciatis. Quo iusto magnam explicabo accusamus esse sunt! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia id possimus laborum! Vero exercitationem porro eaque a autem vel perferendis blanditiis, molestias dolorum illo repellat incidunt, temporibus nisi dolores minima.</p>
+    </main>
+    
+    <footer>
+
+    </footer>
+
+    <script>
+
+        function mudouTamanho(){
+            if(window.innerWidth >= 768){
+                itens.style.display = 'block'
+            } else{
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu(){
+            if(itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
