@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: #fdfaf6;
+    color: #2d2d2d;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #8b0000;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .menu-toggle {
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  
+  .side-menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 60%;
+    background: #2d2d2d;
+    height: 100%;
+    color: #fff;
+    transition: left 0.3s ease;
+    z-index: 15;
+  }
+  
+  .side-menu ul {
+    list-style: none;
+    padding: 2rem;
+  }
+  
+  .side-menu li {
+    padding: 1rem 0;
+    border-bottom: 1px solid #555;
+    cursor: pointer;
+  }
+  
+  main {
+    padding-top: 4.5rem;
+  }
+  
+  /* Hero */
+  .hero {
+    background: url('massa-bg.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-buttons button {
+    margin: 0.3rem;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .hero-buttons .primary {
+    background: #8b0000;
+    color: #fff;
+  }
+  
+  /* Seções */
+  section {
+    padding: 2rem 1rem;
+  }
+  
+  .sobre img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .categoria {
+    background: #eee;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  .destaques .produto {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  
+  .destaques img {
+    width: 100px;
+    border-radius: 10px;
+  }
+  
+  .pedido .btn-wpp {
+    display: inline-block;
+    margin-top: 1rem;
+    background: #25d366;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 1rem;
+  }
+  
+  .contato input, .contato textarea {
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contato button {
+    padding: 0.8rem;
+    background: #8b0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #2d2d2d;
+    color: white;
+    font-size: 0.9rem;
+  }
+  

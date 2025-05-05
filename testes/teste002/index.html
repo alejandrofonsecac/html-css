@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Tavola Italiana</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">🍝 La Tavola</div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+  </header>
+
+  <nav class="side-menu" id="side-menu">
+    <ul>
+      <li><span>🏠</span> Início</li>
+      <li><span>🍝</span> Cardápio</li>
+      <li><span>🛒</span> Carrinho</li>
+      <li><span>👤</span> Perfil</li>
+      <li><span>📦</span> Pedidos</li>
+      <li><span>📞</span> Contato</li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>La Tavola Italiana</h1>
+      <p>Sabores da Itália direto para sua casa</p>
+      <div class="hero-buttons">
+        <button>Ver Cardápio</button>
+        <button class="primary">Peça Agora</button>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="sobre">
+      <h2>Sobre o Restaurante</h2>
+      <p>Nossa missão é trazer o sabor e aconchego da Itália com ingredientes frescos e preparo artesanal.</p>
+      <img src="cozinha.jpg" alt="Cozinha italiana">
+    </section>
+
+    <!-- Categorias -->
+    <section class="categorias">
+      <h2>Cardápio</h2>
+      <div class="grid">
+        <div class="categoria">Massas</div>
+        <div class="categoria">Almoço & Janta</div>
+        <div class="categoria">Executivos</div>
+        <div class="categoria">Sem Glúten</div>
+        <div class="categoria">Porções</div>
+        <div class="categoria">Bebidas</div>
+      </div>
+    </section>
+
+    <!-- Destaques -->
+    <section class="destaques">
+      <h2>Destaques</h2>
+      <div class="produto">
+        <img src="macarrao.jpg" alt="Macarrão artesanal">
+        <div>
+          <h3>Spaghetti ao Pomodoro</h3>
+          <p>Molho de tomate artesanal, manjericão e parmesão</p>
+          <span>R$ 32,90</span>
+          <button>Adicionar</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pedido -->
+    <section class="pedido">
+      <h2>Peça Agora</h2>
+      <p>Faça seu pedido pelo nosso site ou WhatsApp. Entregamos em até 40 minutos na região central.</p>
+      <a href="https://wa.me/5599999999999" class="btn-wpp">Pedir via WhatsApp</a>
+    </section>
+
+    <!-- Contato -->
+    <section class="contato">
+      <h2>Contato</h2>
+      <p>📍 Rua Itália, 123 - Centro<br>⏰ Seg a Dom - 11h às 23h<br>📞 (55) 99999-9999</p>
+      <form>
+        <input type="text" placeholder="Seu nome" required />
+        <input type="email" placeholder="Seu email" required />
+        <textarea placeholder="Sua mensagem"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 La Tavola Italiana. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
